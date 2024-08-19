@@ -1,29 +1,27 @@
 <template>
-    <div class="header__info">
+    <div class="header__info container">
         <img src="@/assets/images/header-banner.jpg" class="header__bg-image" alt="">
         <div class="header__bg-image_blur"></div>
 
-        <div class="container">
-            <div class="header__info-box">
-                <h1 class="header__info-title">Проектирование, строительство промышленных и коммерческих объектов. </h1>
+        <div class="header__info-box">
+            <h1 class="header__info-title">Проектирование, строительство промышленных и коммерческих объектов. </h1>
 
-                <ul class="header__info-list">
-                    <li class="header__info-list_item"> <span>01</span>
-                        <p>Технический заказчик</p>
-                    </li>
-                    <li class="header__info-list_item"> <span>02</span>
-                        <p>Генеральный подрядчик</p>
-                    </li>
-                    <li class="header__info-list_item"> <span>03</span>
-                        <p>Управляющая компания</p>
-                    </li>
-                </ul>
+            <ul class="header__info-list">
+                <li class="header__info-list_item"> <span>01</span>
+                    <p>Технический заказчик</p>
+                </li>
+                <li class="header__info-list_item"> <span>02</span>
+                    <p>Генеральный подрядчик</p>
+                </li>
+                <li class="header__info-list_item"> <span>03</span>
+                    <p>Управляющая компания</p>
+                </li>
+            </ul>
 
-                <UIButton>
-                    <p>Оставить заявку</p>
-                    <UIIcon name="arrow-diagonal" />
-                </UIButton>
-            </div>
+            <UIButton>
+                <p>Оставить заявку</p>
+                <UIIcon name="arrow-diagonal" />
+            </UIButton>
         </div>
     </div>
 </template>

@@ -14,7 +14,7 @@
 
   --grayBg: #F5F4F2;
   --grayBg2: #F9F9F9;
-  --grayText: #bbbcbc;
+  --grayText: #6B6B6B;
   --grayText2: #D9D9D9;
 
   --purple : #702BE1;
@@ -100,7 +100,7 @@ img[src=""] {
 }
 
 .ui-icon {
-  :deep svg path {
+  :deep(svg path) {
     fill: var(--white);
   }
 }

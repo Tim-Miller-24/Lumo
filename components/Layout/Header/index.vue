@@ -14,10 +14,10 @@
                 </ul>
             </nav>
     
-            <a class="header__phone" href="tel:+7 999 000 00 00">
+            <NuxtLink class="header__phone" to="tel:+7 999 000 00 00">
                 <UIIcon name="phone" />
                 <p>+ 7 999 000 00 00</p>
-            </a>
+            </NuxtLink>
         </div>
     </header>
 </template>

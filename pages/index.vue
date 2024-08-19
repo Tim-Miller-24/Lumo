@@ -1,7 +1,11 @@
 <template>
-    <div>
+    <main class="main">
         <LayoutHeaderInfo />
 
-        <div style="height: 500px;"></div>
-    </div>
+        <PagesIndexChoice />
+
+        <PagesIndexServices />
+
+        
+    </main>
 </template>

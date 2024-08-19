@@ -87,11 +87,11 @@ const isDisabled = computed(() => {
 
   border: 1px solid var(--white);
 
+  border-radius: 0;
+
   &:hover:enabled {
     background: #ffffff16;
   }
-  
-  border-radius: 0;
 
   &--small {
     height: 32px;

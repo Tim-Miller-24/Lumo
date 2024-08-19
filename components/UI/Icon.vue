@@ -57,7 +57,7 @@ watchEffect(async () => {
   }
   
   &.white {
-    :deep svg path {
+    :deep(svg path) {
       fill: var(--white);
     }
   }

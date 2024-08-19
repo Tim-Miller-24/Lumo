@@ -132,9 +132,9 @@ export default defineNuxtConfig({
   // runtimeConfig: {
   //   public: {
   //     BASE_URL: process.env.BASE_URL,
-  //     YMAPS_KEY: '25c0a3b3-e6d6-4011-b5f3-2f346d8e584f',
-  //     CONSUMER_KEY: 'ck_8e9043f849e95e6d003c3cc2474fc22b2ed01eec',
-  //     CONSUMER_SECRET: 'cs_74c746f821c405606c0950997a33b194ffc06876'
+  //     YMAPS_KEY: process.env.YMAPS_KEY,
+  //     CONSUMER_KEY: process.env.CONSUMER_KEY,
+  //     CONSUMER_SECRET: process.env.CONSUMER_SECRET,
   //   },
   // },
   router: {
