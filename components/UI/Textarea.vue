@@ -6,15 +6,19 @@
       :disabled="disabled"
       :class="[
         'textarea__area',
-        color ? `textarea__area--${color}` : ''
+        color ? `textarea__area--${color}` : '',
+        icon ? 'textarea__area--icon' : ''
       ]"
-      @input="emits('update:modelValue', $event.target.value)"
+      @input="handleInput"
     />
+
+    <UIIcon :name="icon" class="textarea__icon" v-if="icon && isShowIcon" />
+    <div class="textarea__icon-devider" v-if="icon && isShowIcon"></div>
   </div>
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
   placeholder: {
     type: String,
     default: '',
@@ -35,14 +39,30 @@ defineProps({
     type: String,
     default: '',
   },
+  icon: {
+    type: String,
+    default: '',
+  }
 })
 
 const emits = defineEmits(['update:modelValue'])
+
+const isShowIcon = ref(true);
+
+const handleInput = (event) => {
+  const inputValue = event.target.value;
+
+  emits('update:modelValue', inputValue);
+
+  isShowIcon.value = inputValue.length === 0;
+}
 </script>
 
 <style lang="scss" scoped>
 .textarea {
   width: 100%;
+  font-family: 'Aeroport';
+  position: relative;
 
   &__area {
     width: 100%;
@@ -53,10 +73,18 @@ const emits = defineEmits(['update:modelValue'])
     @include text_normal;
     font-weight: inherit;
 
-    background: var(--grayBg2);
-    border-radius: 14px;
+    background: var(--secondaryBg);
+    border-radius: 16px;
+    border: 1px solid #3E3E3E;
 
     resize: none;
+
+    &--icon {
+
+      &::placeholder {
+        padding-left: 50px;
+      }
+    }
 
     &--white {
       background: var(--white);
@@ -72,24 +100,66 @@ const emits = defineEmits(['update:modelValue'])
     }
 
     &::-webkit-input-placeholder {
-      color: var(--grayText);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 300;
     }
     &:-moz-placeholder {
-      color: var(--grayText);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 300;
       opacity:  1;
     }
     &::-moz-placeholder {
-      color: var(--grayText);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 300;
       opacity:  1;
     }
     &:-ms-input-placeholder {
-      color: var(--grayText);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 300;
     }
     &::-ms-input-placeholder {
-      color: var(--grayText);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 300;
     }
     &::placeholder {
-      color: var(--grayText);
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    
+    top: 12px;
+    left: 20px;
+    z-index: 1005;
+
+    &-devider {
+      width: 1px;
+      height: 22px;
+      position: absolute;
+      
+      top: 12px;
+      left: 50px;
+      background: var(--grayText);
+    }
+
+    &:deep(svg) {
+      height: 20px;
+      width: 20px;
+    }
+
+    &:deep(svg path) {
+      height: 20px;
+      width: 20px;
+
+      fill: var(--grayText);
     }
   }
 }
