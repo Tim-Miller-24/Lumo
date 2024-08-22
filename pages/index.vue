@@ -8,6 +8,18 @@
 
         <PagesIndexProjects />
 
-        <CommonOnlineConsult />
+        <div class="connectWatchAndConsult">
+            <PagesIndexWatch />
+    
+            <CommonOnlineConsult />
+        </div>
+
     </main>
 </template>
+
+<style lang="scss" scoped>
+.connectWatchAndConsult {
+    padding-top: 120px;
+    background: var(--secondaryBg);
+}
+</style>

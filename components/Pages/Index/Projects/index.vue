@@ -36,7 +36,6 @@ import { Navigation } from 'swiper/modules';
 
 import carousel_0 from '@/assets/images/carousel-0.png';
 import carousel_1 from '@/assets/images/carousel-1.png';
-import carousel_2 from '@/assets/images/carousel-2.png';
 
 const banners = reactive<IBannerItem[]>([
     {
@@ -57,14 +56,6 @@ const banners = reactive<IBannerItem[]>([
     },
     {
         id: 2,
-        image: carousel_2,
-        title: 'название проекта',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
-        tag: 'lumo',
-        link: 'https://www.youtube.com/',
-    },
-    {
-        id: 3,
         image: carousel_0,
         title: 'название проекта',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
@@ -72,7 +63,7 @@ const banners = reactive<IBannerItem[]>([
         link: 'https://www.youtube.com/',
     },
     {
-        id: 4,
+        id: 3,
         image: carousel_1,
         title: 'название проекта',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
@@ -80,8 +71,16 @@ const banners = reactive<IBannerItem[]>([
         link: 'https://www.youtube.com/',
     },
     {
+        id: 4,
+        image: carousel_0,
+        title: 'название проекта',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
+        tag: 'lumo',
+        link: 'https://www.youtube.com/',
+    },
+    {
         id: 5,
-        image: carousel_2,
+        image: carousel_1,
         title: 'название проекта',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
         tag: 'lumo',
@@ -142,7 +141,7 @@ const banners = reactive<IBannerItem[]>([
 
     &-navigation {
         margin-top: 20px;
-        
+
         display: flex;
         justify-content: end;
         gap: 10px;
