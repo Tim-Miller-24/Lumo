@@ -8,7 +8,186 @@
                 </NuxtLink>
             </div>
 
-            <div class="services__box">
+            <Swiper :modules="[Navigation]" :breakpoints="{
+                320: { slidesPerView: 'auto', spaceBetween: 10 },
+                768: { slidesPerView: 'auto', spaceBetween: 30 },
+            }" :navigation="{
+                prevEl: `#slider-arrow--prev`,
+                nextEl: `#slider-arrow--next`,
+            }" class="index-menu__slider services__box">
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">01</p>
+                        <h3 class="services__name">Технический заказчик</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">02</p>
+                        <h3 class="services__name">Проектирование</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">03</p>
+                        <h3 class="services__name">Генеральный  подряд</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">04</p>
+                        <h3 class="services__name">Изготовление металлоконструкций </h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt</p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">05</p>
+                        <h3 class="services__name">Земляные работы / работы нулевого цикла</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">06</p>
+                        <h3 class="services__name">Монолитные работы,  Монтаж / сбор жби конструкций</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">07</p>
+                        <h3 class="services__name">Монтаж металлоконструкций</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">08</p>
+                        <h3 class="services__name">Монтаж сэндвич панелей</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">09</p>
+                        <h3 class="services__name">Кровельные работы / Монтаж кровли</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">10</p>
+                        <h3 class="services__name">Промышленные полы, полимерные покрытия</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">12</p>
+                        <h3 class="services__name">Эксплуатация и последующее обслуживание</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">11</p>
+                        <h3 class="services__name">Монтаж инженерных сетей </h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
+
+                    <div class="services__devider"></div>
+                </SwiperSlide>
+
+            </Swiper>
+
+            <!-- <div class="services__box">
                 <div class="services__item">
                     <p class="services__count">01</p>
                     <h3 class="services__name">Технический заказчик</h3>
@@ -40,12 +219,19 @@
                         <UIIcon name="arrow-diagonal" />
                     </UIButton>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
 
+<script setup lang="ts">
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation } from 'swiper/modules';
+</script>
+
 <style lang="scss" scoped>
+@import "swiper/css";
+
 .services {
     padding: 120px 0;
 
@@ -68,7 +254,7 @@
         gap: 5px;
 
         align-items: center;
-        
+
         font-family: 'Aeroport';
         font-weight: 400;
         font-size: 16px;
@@ -124,13 +310,38 @@
     }
 
     &__button {
-        margin-top: 20px;
+        position: absolute;
+        bottom: 10px;
     }
 
     &__devider {
         display: flex;
-        height: 240px;
+        height: 260px;
         border: 1px dashed #FFFFFF1A;
     }
+}
+
+.index-menu__slider {
+    z-index: 10;
+
+    &:deep(.swiper-wrapper) {
+        display: flex;
+
+        &:first-child {
+            padding-left: 20px;
+        }
+
+        .swiper-slide:last-child {
+            padding-right: 40px;
+        }
+    }
+}
+
+.index-menu__slide {
+    max-width: 450px;
+    width: 100%;
+
+    display: flex;
+    gap: 25px;
 }
 </style>
