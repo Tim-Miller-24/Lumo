@@ -45,6 +45,8 @@ const banners = reactive<IBannerItem[]>([
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
         tag: 'lumo',
         link: 'https://www.youtube.com/',
+        area: '10 000 м2',
+        address: 'Ленинский район Московской области'
     },
     {
         id: 1,
@@ -53,6 +55,8 @@ const banners = reactive<IBannerItem[]>([
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
         tag: 'lumo',
         link: 'https://www.youtube.com/',
+        area: '10 000 м2',
+        address: 'Ленинский район Московской области'
     },
     {
         id: 2,
@@ -61,6 +65,8 @@ const banners = reactive<IBannerItem[]>([
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
         tag: 'lumo',
         link: 'https://www.youtube.com/',
+        area: '10 000 м2',
+        address: 'Ленинский район Московской области'
     },
     {
         id: 3,
@@ -69,6 +75,8 @@ const banners = reactive<IBannerItem[]>([
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
         tag: 'lumo',
         link: 'https://www.youtube.com/',
+        area: '10 000 м2',
+        address: 'Ленинский район Московской области'
     },
     {
         id: 4,
@@ -77,6 +85,8 @@ const banners = reactive<IBannerItem[]>([
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
         tag: 'lumo',
         link: 'https://www.youtube.com/',
+        area: '10 000 м2',
+        address: 'Ленинский район Московской области'
     },
     {
         id: 5,
@@ -85,6 +95,8 @@ const banners = reactive<IBannerItem[]>([
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ut enim ad minim veniam, quis',
         tag: 'lumo',
         link: 'https://www.youtube.com/',
+        area: '10 000 м2',
+        address: 'Ленинский район Московской области'
     },
 ])
 </script>
@@ -166,7 +178,7 @@ const banners = reactive<IBannerItem[]>([
 }
 
 .index-menu__slide {
-    max-width: 650px;
+    max-width: 450px;
     width: 100%;
 }
 

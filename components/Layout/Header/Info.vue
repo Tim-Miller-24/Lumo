@@ -6,7 +6,7 @@
         <div class="header__info-box">
             <h1 class="header__info-title">Проектирование, строительство промышленных и коммерческих объектов. </h1>
 
-            <ul class="header__info-list">
+            <!-- <ul class="header__info-list">
                 <li class="header__info-list_item"> <span>01</span>
                     <p>Технический заказчик</p>
                 </li>
@@ -16,7 +16,7 @@
                 <li class="header__info-list_item"> <span>03</span>
                     <p>Управляющая компания</p>
                 </li>
-            </ul>
+            </ul> -->
 
             <UIButton>
                 <p>Оставить заявку</p>

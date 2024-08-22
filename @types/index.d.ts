@@ -5,4 +5,6 @@ interface IBannerItem {
     description: string | null,
     tag: string | null,
     link: string | null,
+    area: string | null,
+    address: string | null,
 }
