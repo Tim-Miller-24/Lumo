@@ -8,13 +8,18 @@
                 </NuxtLink>
             </div>
 
-            <Swiper :modules="[Navigation]" :breakpoints="{
-                320: { slidesPerView: 'auto', spaceBetween: 10 },
-                768: { slidesPerView: 'auto', spaceBetween: 30 },
-            }" :navigation="{
-                prevEl: `#slider-arrow--prev`,
-                nextEl: `#slider-arrow--next`,
-            }" class="index-menu__slider services__box">
+            <Swiper 
+                :modules="[Navigation]" 
+                :breakpoints="{
+                    320: { slidesPerView: 'auto', spaceBetween: 10 },
+                    768: { slidesPerView: 'auto', spaceBetween: 30 },
+                    }" 
+                :navigation="{
+                    prevEl: `#slider-arrow--prev`,
+                    nextEl: `#slider-arrow--next`,
+                }" 
+                class="index-menu__slider services__box"
+            >
                 <SwiperSlide class="index-menu__slide">
                     <div class="services__item">
                         <p class="services__count">01</p>
@@ -156,21 +161,7 @@
 
                     <div class="services__devider"></div>
                 </SwiperSlide>
-                
-                <SwiperSlide class="index-menu__slide">
-                    <div class="services__item">
-                        <p class="services__count">12</p>
-                        <h3 class="services__name">Эксплуатация и последующее обслуживание</h3>
-                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
-                            <UIIcon name="arrow-diagonal" />
-                        </UIButton>
-                    </div>
 
-                    <div class="services__devider"></div>
-                </SwiperSlide>
-                
                 <SwiperSlide class="index-menu__slide">
                     <div class="services__item">
                         <p class="services__count">11</p>
@@ -184,7 +175,20 @@
 
                     <div class="services__devider"></div>
                 </SwiperSlide>
+                
+                <SwiperSlide class="index-menu__slide">
+                    <div class="services__item">
+                        <p class="services__count">12</p>
+                        <h3 class="services__name">Эксплуатация и последующее обслуживание</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod </p>
+                        <UIButton class="services__button">Оставить заявку
+                            <UIIcon name="arrow-diagonal" />
+                        </UIButton>
+                    </div>
 
+                    <div class="services__devider"></div>
+                </SwiperSlide>    
             </Swiper>
 
             <!-- <div class="services__box">
