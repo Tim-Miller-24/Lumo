@@ -6,7 +6,7 @@
 
         <PagesIndexServices />
 
-        <div style="height: 200px;"></div>
+        <PagesIndexProjects />
 
         <CommonOnlineConsult />
     </main>

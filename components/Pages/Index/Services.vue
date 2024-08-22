@@ -65,7 +65,10 @@
 
     &__link {
         display: flex;
+        gap: 5px;
+
         align-items: center;
+        
         font-family: 'Aeroport';
         font-weight: 400;
         font-size: 16px;
