@@ -53,7 +53,7 @@
                 <SwiperSlide class="index-menu__slide">
                     <div class="services__item">
                         <p class="services__count">03</p>
-                        <h3 class="services__name">Генеральный  подряд</h3>
+                        <h3 class="services__name">Генеральный подряд</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton class="services__button">Оставить заявку
