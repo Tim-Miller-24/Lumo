@@ -27,7 +27,8 @@
 
 <style scoped lang="scss">
 .choice {
-    padding: 60px 0;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
 
     display: flex;
     align-items: start;
