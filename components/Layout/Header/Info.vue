@@ -44,11 +44,15 @@
             position: relative;
             z-index: 5;
 
-            max-width: 500px;
+            max-width: 780px;
 
             display: flex;
             flex-direction: column;
             gap: 20px;
+
+            :deep(span svg path) {
+                fill: var(--yellow);
+            }
         }
 
         &-title {

@@ -15,8 +15,8 @@
                     768: { slidesPerView: 'auto', spaceBetween: 30 },
                     }" 
                 :navigation="{
-                    prevEl: `#slider-arrow--prev`,
-                    nextEl: `#slider-arrow--next`,
+                    prevEl: `#slider-services-arrow--prev`,
+                    nextEl: `#slider-services-arrow--next`,
                 }" 
                 class="index-menu__slider services__box"
             >
@@ -27,7 +27,7 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -42,7 +42,7 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -56,7 +56,7 @@
                         <h3 class="services__name">Генеральный подряд</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -70,7 +70,7 @@
                         <h3 class="services__name">Изготовление металлоконструкций </h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt</p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -84,7 +84,7 @@
                         <h3 class="services__name">Земляные работы / работы нулевого цикла</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -98,7 +98,7 @@
                         <h3 class="services__name">Монолитные работы,  Монтаж / сбор жби конструкций</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -112,7 +112,7 @@
                         <h3 class="services__name">Монтаж металлоконструкций</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -126,7 +126,7 @@
                         <h3 class="services__name">Монтаж сэндвич панелей</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -140,7 +140,7 @@
                         <h3 class="services__name">Кровельные работы / Монтаж кровли</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -154,7 +154,7 @@
                         <h3 class="services__name">Промышленные полы, полимерные покрытия</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -168,7 +168,7 @@
                         <h3 class="services__name">Монтаж инженерных сетей </h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -182,7 +182,7 @@
                         <h3 class="services__name">Эксплуатация и последующее обслуживание</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton color="black"class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Подробнее
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -191,6 +191,14 @@
                 </SwiperSlide>    
             </Swiper>
 
+            <div class="index-menu__slider-navigation container">
+            <UIIcon name="arrow-left" class="index-menu__slider-navigation_arrow" id="slider-services-arrow--prev" />
+
+            <div class="index-menu__slider-navigation_devider"></div>
+
+            <UIIcon name="arrow-left" class="index-menu__slider-navigation_arrow" id="slider-services-arrow--next" />
+        </div>
+
             <!-- <div class="services__box">
                 <div class="services__item">
                     <p class="services__count">01</p>
@@ -198,7 +206,7 @@
                     <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt </p>
-                    <UIButton color="black"class="services__button">Оставить заявку
+                    <UIButton color="black"class="services__button">Подробнее
                         <UIIcon name="arrow-diagonal" />
                     </UIButton>
                 </div>
@@ -209,7 +217,7 @@
                     <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt </p>
-                    <UIButton color="black"class="services__button">Оставить заявку
+                    <UIButton color="black"class="services__button">Подробнее
                         <UIIcon name="arrow-diagonal" />
                     </UIButton>
                 </div>
@@ -219,7 +227,7 @@
                     <h3 class="services__name">Управляющая компания</h3>
                     <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod </p>
-                    <UIButton color="black"class="services__button">Оставить заявку
+                    <UIButton color="black"class="services__button">Подробнее
                         <UIIcon name="arrow-diagonal" />
                     </UIButton>
                 </div>
@@ -339,6 +347,41 @@ import { Navigation } from 'swiper/modules';
             padding-right: 40px;
         }
     }
+
+    &-navigation {
+        margin-top: 20px;
+
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+
+        &_arrow {
+            &:hover {
+                cursor: pointer;
+            }
+
+            :deep(svg) {
+                height: 30px;
+                width: 30px;
+            }
+            :deep(svg path) {
+                height: 30px;
+                width: 30px;
+                fill: var(--grayText)
+            }
+        }
+
+        &_devider {
+            display: flex;
+            height: 30px;
+            border: 1px dashed var(--grayText);
+        }
+
+    }
+}
+
+#slider-services-arrow--next {
+    transform: rotate(180deg);
 }
 
 .index-menu__slide {

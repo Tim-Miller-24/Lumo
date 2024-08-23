@@ -62,7 +62,6 @@ const isShowOverlay = ref<boolean>(false);
 
     &__image-box {
         position: relative;
-        height: auto;
 
         &:hover {
             cursor: pointer;
@@ -87,7 +86,7 @@ const isShowOverlay = ref<boolean>(false);
     }
 
     &__image {
-        max-height: 240px;
+        max-height: 390px;
         width: 100%;
 
         object-fit: cover;
