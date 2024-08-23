@@ -114,10 +114,15 @@
                 position: absolute;
                 top: 35px;
                 display: none;
-                
+
                 padding: 5px 15px;
 
-                backdrop-filter: blur(30px);
+                background: rgb(48, 48, 48);
+                background: linear-gradient(90deg, rgba(48, 48, 48, 1) 0%, rgba(59, 59, 59, 1) 100%);
+
+                -webkit-box-shadow: inset 0px -48px 41px -31px rgba(0, 0, 0, 0.61);
+                -moz-box-shadow: inset 0px -48px 41px -31px rgba(0, 0, 0, 0.61);
+                box-shadow: inset 0px -48px 41px -31px rgba(0, 0, 0, 0.61);
 
                 flex-direction: column;
 
