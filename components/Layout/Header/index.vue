@@ -61,9 +61,9 @@
                 </ul>
             </nav>
 
-            <NuxtLink class="header__phone" to="tel:+7 999 000 00 00">
+            <NuxtLink class="header__phone" to="tel:+7 812 209 50 79">
                 <UIIcon name="phone" />
-                <p>+ 7 999 000 00 00</p>
+                <p>+ 7 812 209 50 79</p>
             </NuxtLink>
         </div>
     </header>
@@ -80,7 +80,8 @@
 
     color: var(--white);
 
-    backdrop-filter: blur(80px);
+    background: rgb(4, 4, 4);
+    background: linear-gradient(90deg, rgb(4, 4, 4) 0%, rgb(65, 65, 65) 100%);
 
     &__content {
         padding: 12px;
@@ -113,6 +114,10 @@
                 position: absolute;
                 top: 35px;
                 display: none;
+                
+                padding: 5px 15px;
+
+                backdrop-filter: blur(30px);
 
                 flex-direction: column;
 

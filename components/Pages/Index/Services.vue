@@ -28,7 +28,6 @@
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -43,7 +42,6 @@
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -57,7 +55,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -71,7 +68,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt</p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -85,7 +81,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -99,7 +94,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -113,7 +107,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -127,7 +120,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -141,7 +133,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -155,7 +146,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -169,7 +159,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
@@ -183,7 +172,6 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
-                            <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
 
