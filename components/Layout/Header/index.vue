@@ -122,17 +122,22 @@
                 flex-direction: column;
 
                 max-height: 300px;
-                width: 200px;
+                width: 450px;
 
                 overflow-y: scroll;
 
                 & li {
                     padding-top: 5px;
                     padding-bottom: 5px;
+
+                    :hover {
+                        color: var(--yellow);
+                    }
                 }
 
                 &::-webkit-scrollbar {
                     width: 5px;
+                    display: none;
                 }
 
                 &::-webkit-scrollbar-track {
