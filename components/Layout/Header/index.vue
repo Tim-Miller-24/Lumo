@@ -134,8 +134,16 @@
                     padding-top: 5px;
                     padding-bottom: 5px;
 
+
+
                     :hover {
                         color: var(--yellow);
+
+                        &::before {
+                            content: '•';
+                            color: var(--yellow);
+                            padding-right: 10px;
+                        }
                     }
                 }
 
