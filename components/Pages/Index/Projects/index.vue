@@ -128,10 +128,10 @@ const banners = reactive<IBannerItem[]>([
         font-size: 16px;
         font-weight: 400;
         text-align: left;
-        color: var(--yellow);
+        color: var(--grayText);
 
         :deep(span svg path) {
-            fill: var(--yellow)
+            fill: var(--grayText)
         }
     }
 }
@@ -152,10 +152,10 @@ const banners = reactive<IBannerItem[]>([
     }
 
     &-navigation {
-        margin-top: 20px;
+        margin-top: 30px;
 
         display: flex;
-        justify-content: end;
+        justify-content: center;
         gap: 10px;
 
         &_arrow {

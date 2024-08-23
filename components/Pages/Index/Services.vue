@@ -271,10 +271,10 @@ import { Navigation } from 'swiper/modules';
         font-weight: 400;
         font-size: 16px;
 
-        color: var(--yellow);
+        color: var(--grayText);
 
         &:deep(svg path) {
-            fill: var(--yellow);
+            fill: var(--grayText);
         }
     }
 
@@ -297,7 +297,7 @@ import { Navigation } from 'swiper/modules';
         font-weight: 300;
         line-height: 21.87px;
         text-align: left;
-        color: var(--yellow);
+        color: var(--grayText);
 
     }
 
@@ -352,7 +352,7 @@ import { Navigation } from 'swiper/modules';
         margin-top: 20px;
 
         display: flex;
-        justify-content: end;
+        justify-content: center;
         gap: 10px;
 
         &_arrow {
