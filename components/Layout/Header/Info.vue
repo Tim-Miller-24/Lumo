@@ -4,7 +4,7 @@
         <div class="header__bg-image_blur"></div>
 
         <div class="header__info-box">
-            <h1 class="header__info-title">Проектирование, строительство промышленных и коммерческих объектов. </h1>
+            <h1 class="header__info-title">Проектирование и строительство зданий производственного и складского назначения. </h1>
 
             <!-- <ul class="header__info-list">
                 <li class="header__info-list_item"> <span>01</span>

@@ -1,37 +1,35 @@
 <template>
     <div class="choice container">
         <h3 class="choice__title">[о компании]</h3>
-
+        <!-- собственный завод металлоконструкций 
+- собственный парк спецтехники 
+- высококвалифицированный штат инженерно-технических сотрудников 
+- большой опыт в реализации задач -->
         <div class="choice__info">
             <div class="choice__item">
                 <UIIcon name="shield" class="choice__item-icon" />
-                <p class="choice__item-title">8 лет опыта</p>
-                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt </p>
+                <p class="choice__item-title">Проектное бюро</p>
+                <p class="choice__item-description">собственное проектное бюро </p>
             </div>
             <div class="choice__item">
                 <UIIcon name="referals" class="choice__item-icon" />
-                <p class="choice__item-title">90+ партнеров</p>
-                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt </p>
-            </div>
-            <div class="choice__item">
-                <UIIcon name="expand_content" class="choice__item-icon" />
-                <p class="choice__item-title">23 проекта</p>
-                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt </p>
+                <p class="choice__item-title">Завод металлоконструкций</p>
+                <p class="choice__item-description">собственный завод металлоконструкций </p>
             </div>
             <div class="choice__item">
                 <UIIcon name="shield" class="choice__item-icon" />
-                <p class="choice__item-title">8 лет опыта</p>
-                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt </p>
+                <p class="choice__item-title">Парк спецтехники</p>
+                <p class="choice__item-description">собственный парк спецтехники </p>
+            </div>
+            <div class="choice__item">
+                <UIIcon name="expand_content" class="choice__item-icon" />
+                <p class="choice__item-title">квалифицированный штат</p>
+                <p class="choice__item-description">высококвалифицированный штат инженерно-технических сотрудников  </p>
             </div>
             <div class="choice__item">
                 <UIIcon name="referals" class="choice__item-icon" />
-                <p class="choice__item-title">90+ партнеров</p>
-                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt </p>
+                <p class="choice__item-title">большой опыт</p>
+                <p class="choice__item-description">большой опыт в реализации задач</p>
             </div>
             <div class="choice__item">
                 <UIIcon name="expand_content" class="choice__item-icon" />
