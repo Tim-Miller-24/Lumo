@@ -79,7 +79,8 @@ const userComment = ref<string>('');
         margin-top: 20px;
 
         & a {
-            color: var(--yellow);
+            font-weight: 400;
+            color: var(--black);
         }
     }
 }

@@ -1,38 +1,37 @@
 <template>
     <footer class="footer">
         <div class="footer__main container">
-            <div class="footer__about">
-                <NuxtLink to="/">О компании</NuxtLink>
-                <NuxtLink to="/">Контакты</NuxtLink>
-                <NuxtLink to="/">Услуги</NuxtLink>
-                <NuxtLink to="/">Портфолио</NuxtLink>
-                <NuxtLink to="/">Инвесторам</NuxtLink>
-                <NuxtLink to="/">Отзывы</NuxtLink>
-            </div>
-
             <div class="footer__info">
                 <div>
-                    <h4 class="footer__info-title">офис</h4>
+                    <h4 class="footer__info-title">Контакты</h4>
+                    <NuxtLink to="tel:+7 (812) 209-50-79" class="footer__info-desc-link">
+                        <p>+ 7 (812) 209-50-79</p>
+                    </NuxtLink>
+                    <NuxtLink to="mailto:hello@lumo.spb.ru" class="footer__info-desc-link">
+                        hello@lumo.spb.ru
+                    </NuxtLink>
+                </div>
+
+                <div>
+                    <h4 class="footer__info-title">адрес</h4>
                     <p class="footer__info-desc">г. Санкт- Петербург, Аптекарская набережная, д. 6</p>
                 </div>
+
+                <div>
+                    <h4 class="footer__info-title">Документы</h4>
+                    <NuxtLink to="" class="footer__info-desc-link">
+                        СРО
+                    </NuxtLink>
+                    <NuxtLink to="" class="footer__info-desc-link">
+                        Лицензии
+                    </NuxtLink>
+                </div>
+
                 <div>
                     <h4 class="footer__info-title">график работы</h4>
                     <p class="footer__info-desc">ПН-ПТ 10:00-18:00</p>
                 </div>
-            </div>
 
-            <div class="footer__links">
-                <NuxtLink to="/">
-                    <img src="@/assets/images/logo.png" alt="" class="footer__links-logo">
-                </NuxtLink>
-                <NuxtLink to="tel:+7 (812) 209-50-79">
-                    <UIIcon name="phone" />
-                    <p>+ 7 (812) 209-50-79</p>
-                </NuxtLink>
-                <NuxtLink to="mailto:hello@lumo.spb.ru">
-                    <UIIcon name="sms" />
-                    hello@lumo.spb.ru
-                </NuxtLink>
             </div>
         </div>
 
@@ -71,13 +70,21 @@
     }
 
     &__info {
+        // display: grid;
+        // grid-template-columns: repeat(2, 1fr);
+
         display: flex;
-        flex-direction: column;
+
+        justify-content: space-between;
+
+        width: 100%;
 
         gap: 48px;
 
-        max-width: 250px;
-        
+        & div {
+            max-width: 300px;
+        }
+
 
         &-title {
             font-family: 'Bicubik';
@@ -96,6 +103,18 @@
             line-height: 21.87px;
             text-align: left;
 
+            &-link {
+                font-family: 'Aeroport';
+                font-size: 16px;
+                font-weight: 300;
+
+                display: flex;
+                gap: 8px;
+                margin-top: 2px;
+                margin-bottom: 5px;
+
+                cursor: pointer;
+            }
         }
     }
 

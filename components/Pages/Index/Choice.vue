@@ -1,8 +1,26 @@
 <template>
     <div class="choice container">
-        <h3 class="choice__title">[Нас выбирают]</h3>
+        <h3 class="choice__title">[о компании]</h3>
 
         <div class="choice__info">
+            <div class="choice__item">
+                <UIIcon name="shield" class="choice__item-icon" />
+                <p class="choice__item-title">8 лет опыта</p>
+                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt </p>
+            </div>
+            <div class="choice__item">
+                <UIIcon name="referals" class="choice__item-icon" />
+                <p class="choice__item-title">90+ партнеров</p>
+                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt </p>
+            </div>
+            <div class="choice__item">
+                <UIIcon name="expand_content" class="choice__item-icon" />
+                <p class="choice__item-title">23 проекта</p>
+                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt </p>
+            </div>
             <div class="choice__item">
                 <UIIcon name="shield" class="choice__item-icon" />
                 <p class="choice__item-title">8 лет опыта</p>
@@ -41,7 +59,9 @@
     }
 
     &__info {
-        display: flex;
+        flex-grow: 1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
 
         gap: 40px;
     }

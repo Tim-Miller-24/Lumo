@@ -47,13 +47,13 @@ function moveElement(event: MouseEvent) {
 <style lang="scss" scoped>
 .watch {
     position: relative;
-    height: 200px;
+    height: 300px;
 
     &__image {
         position: absolute;
         z-index: 10;
 
-        max-height: 200px;
+        max-height: 300px;
         width: 100%;
 
         object-fit: cover;
@@ -64,7 +64,7 @@ function moveElement(event: MouseEvent) {
     &__gray-bg {
         position: absolute;
         z-index: 11;
-        height: 200px;
+        height: 300px;
         width: 100%;
         background: #00000066;
     }
