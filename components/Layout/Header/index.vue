@@ -126,7 +126,7 @@
 
                 flex-direction: column;
 
-                width: 450px;
+                width: 470px;
 
                 overflow-y: scroll;
 
