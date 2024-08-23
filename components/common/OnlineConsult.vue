@@ -17,7 +17,7 @@
 
                 <p class="consult__agree">Нажимая кнопку “Продолжить” Вы принимаете условия <NuxtLink to="/">пользовательского соглашения</NuxtLink> и политики конфиденциальности</p>
 
-                <UIButton class="services__button">Оставить заявку
+                <UIButton color="black"class="services__button">Оставить заявку
                     <UIIcon name="arrow-diagonal" />
                 </UIButton>
             </form>
@@ -33,7 +33,7 @@ const userComment = ref<string>('');
 
 <style lang="scss" scoped>
 .consult {
-    background: var(--secondaryBg);
+    background: var(--grayBg3);
 
     padding-top: 70px;
     padding-bottom: 120px;
@@ -74,7 +74,7 @@ const userComment = ref<string>('');
         font-family: 'Aeroport';
         font-weight: 300;
         font-size: 13px;
-        color: var(--grayText2);
+        color: var(--grayText);
 
         margin-top: 20px;
 

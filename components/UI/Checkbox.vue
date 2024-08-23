@@ -73,7 +73,7 @@ const handleChange = () => {
 
   font-family: 'Aeroport';
   
-  color: var(--white);
+  color: var(--black);
 
   cursor: pointer;
 

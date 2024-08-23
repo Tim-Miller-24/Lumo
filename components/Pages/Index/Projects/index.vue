@@ -163,7 +163,13 @@ const banners = reactive<IBannerItem[]>([
                 cursor: pointer;
             }
 
+            :deep(svg) {
+                height: 30px;
+                width: 30px;
+            }
             :deep(svg path) {
+                height: 30px;
+                width: 30px;
                 fill: var(--grayText)
             }
         }

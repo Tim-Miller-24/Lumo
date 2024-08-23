@@ -73,7 +73,7 @@ const handleInput = (event) => {
     @include text_normal;
     font-weight: inherit;
 
-    background: var(--secondaryBg);
+    background: var(--grayBg3);
     border-radius: 16px;
     border: 1px solid #3E3E3E;
 
@@ -88,7 +88,7 @@ const handleInput = (event) => {
 
     &--white {
       background: var(--white);
-      border: 1px solid var(--grayText2);
+      border: 1px solid var(--grayText);
     }
 
     &--gray {
@@ -100,34 +100,34 @@ const handleInput = (event) => {
     }
 
     &::-webkit-input-placeholder {
-      color: var(--white);
+      color: var(--black);
       font-size: 16px;
       font-weight: 300;
     }
     &:-moz-placeholder {
-      color: var(--white);
+      color: var(--black);
       font-size: 16px;
       font-weight: 300;
       opacity:  1;
     }
     &::-moz-placeholder {
-      color: var(--white);
+      color: var(--black);
       font-size: 16px;
       font-weight: 300;
       opacity:  1;
     }
     &:-ms-input-placeholder {
-      color: var(--white);
+      color: var(--black);
       font-size: 16px;
       font-weight: 300;
     }
     &::-ms-input-placeholder {
-      color: var(--white);
+      color: var(--black);
       font-size: 16px;
       font-weight: 300;
     }
     &::placeholder {
-      color: var(--white);
+      color: var(--black);
       font-size: 16px;
       font-weight: 300;
     }

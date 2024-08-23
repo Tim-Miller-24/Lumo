@@ -27,7 +27,7 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -42,7 +42,7 @@
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -56,7 +56,7 @@
                         <h3 class="services__name">Генеральный подряд</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -70,7 +70,7 @@
                         <h3 class="services__name">Изготовление металлоконструкций </h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt</p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -84,7 +84,7 @@
                         <h3 class="services__name">Земляные работы / работы нулевого цикла</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -98,7 +98,7 @@
                         <h3 class="services__name">Монолитные работы,  Монтаж / сбор жби конструкций</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -112,7 +112,7 @@
                         <h3 class="services__name">Монтаж металлоконструкций</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -126,7 +126,7 @@
                         <h3 class="services__name">Монтаж сэндвич панелей</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -140,7 +140,7 @@
                         <h3 class="services__name">Кровельные работы / Монтаж кровли</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -154,7 +154,7 @@
                         <h3 class="services__name">Промышленные полы, полимерные покрытия</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -168,7 +168,7 @@
                         <h3 class="services__name">Монтаж инженерных сетей </h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -182,7 +182,7 @@
                         <h3 class="services__name">Эксплуатация и последующее обслуживание</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
-                        <UIButton class="services__button">Оставить заявку
+                        <UIButton color="black"class="services__button">Оставить заявку
                             <UIIcon name="arrow-diagonal" />
                         </UIButton>
                     </div>
@@ -198,7 +198,7 @@
                     <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt </p>
-                    <UIButton class="services__button">Оставить заявку
+                    <UIButton color="black"class="services__button">Оставить заявку
                         <UIIcon name="arrow-diagonal" />
                     </UIButton>
                 </div>
@@ -209,7 +209,7 @@
                     <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt </p>
-                    <UIButton class="services__button">Оставить заявку
+                    <UIButton color="black"class="services__button">Оставить заявку
                         <UIIcon name="arrow-diagonal" />
                     </UIButton>
                 </div>
@@ -219,7 +219,7 @@
                     <h3 class="services__name">Управляющая компания</h3>
                     <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod </p>
-                    <UIButton class="services__button">Оставить заявку
+                    <UIButton color="black"class="services__button">Оставить заявку
                         <UIIcon name="arrow-diagonal" />
                     </UIButton>
                 </div>
@@ -239,7 +239,7 @@ import { Navigation } from 'swiper/modules';
 .services {
     padding: 120px 0;
 
-    background: var(--secondaryBg);
+    background: var(--grayBg3);
 
     &__header {
         display: flex;
@@ -321,7 +321,7 @@ import { Navigation } from 'swiper/modules';
     &__devider {
         display: flex;
         height: 260px;
-        border: 1px dashed #FFFFFF1A;
+        border: 1px dashed var(--grayText);
     }
 }
 

@@ -53,7 +53,7 @@ const isShowOverlay = ref<boolean>(false);
     display: flex;
     flex-direction: column;
     
-    background: var(--secondaryBg);
+    background: var(--grayBg3);
 
     gap: 20px;
 

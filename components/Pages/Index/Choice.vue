@@ -69,7 +69,7 @@
             font-weight: 300;
             line-height: 21.87px;
             text-align: left;
-            color: #FFFFFF4D;
+            color: var(--grayText);
         }
 
         &-icon {

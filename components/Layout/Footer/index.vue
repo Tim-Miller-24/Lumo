@@ -51,6 +51,9 @@
 
 <style lang="scss" scoped>
 .footer {
+    background: var(--mainBg);
+
+    color: var(--white);
 
     &__main {
         display: flex;

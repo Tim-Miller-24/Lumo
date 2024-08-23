@@ -41,7 +41,7 @@
     width: 100%;
     height: 100%;
 
-    background: var(--grayText2);
+    background: var(--grayText);
     border-radius: 14px;
 
     transition: background-color 0.3s;

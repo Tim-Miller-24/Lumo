@@ -15,6 +15,6 @@
 
 <style lang="scss" scoped>
 .layout-default {
-    background: var(--mainBg);
+    background: var(--white);
 }
 </style>

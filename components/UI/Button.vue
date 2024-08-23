@@ -132,8 +132,20 @@ const isDisabled = computed(() => {
     }
   }
 
+  &--black {
+    border: 1px solid var(--black);
+
+    :deep(span svg path) {
+      fill: var(--black);
+    }
+
+    &:hover:enabled {
+      background: #96969622;
+    }
+  }
+
   &--orange {
-    color: var(--white);
+    color: var(--black);
     background: var(--orange);
   }
 

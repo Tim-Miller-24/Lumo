@@ -141,7 +141,7 @@ const openBurgerCatMenu = () => {
 
     @include text_normal;
     font-weight: 600;
-    color: var(--white);
+    color: var(--black);
 
     &--delivery {
       color: var(--grayText);
@@ -173,7 +173,7 @@ const openBurgerCatMenu = () => {
     @include text_small;
     line-height: 18.2px;
     font-weight: 600;
-    color: var(--white);
+    color: var(--black);
 
     background: #383838;
     border-radius: 10px;

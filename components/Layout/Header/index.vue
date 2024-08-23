@@ -78,6 +78,8 @@
     top: 0;
     width: 100%;
 
+    color: var(--white);
+
     backdrop-filter: blur(80px);
 
     &__content {

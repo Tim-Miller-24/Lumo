@@ -20,6 +20,6 @@
 <style lang="scss" scoped>
 .connectWatchAndConsult {
     padding-top: 120px;
-    background: var(--secondaryBg);
+    background: var(--grayBg3);
 }
 </style>

@@ -31,8 +31,10 @@
     position: relative;
 
     &__info {
-        height: 100vh;
+        height: 80vh;
         width: 100%;
+
+        color: var(--white);
 
         display: flex;
         align-items: center;
@@ -78,7 +80,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 80vh;
         object-fit: cover;
 
         &_blur {
@@ -87,7 +89,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 80vh;
 
             background: linear-gradient(89.98deg, #000000 0.01%, rgba(0, 0, 0, 0.79) 23.86%, rgba(0, 0, 0, 0) 69.13%);
         }

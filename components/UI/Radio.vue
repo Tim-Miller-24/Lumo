@@ -57,7 +57,7 @@ const isChecked = computed(() => {
     display: none;
 
     &:checked + .radio__box {
-      border-color: var(--white);
+      border-color: var(--black);
 
       &:after {
         opacity: 1;
@@ -93,7 +93,7 @@ const isChecked = computed(() => {
   }
 
   &__text {
-    color: var(--white);
+    color: var(--black);
     font-weight: 500;
   }
 }
