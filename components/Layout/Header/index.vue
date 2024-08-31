@@ -8,7 +8,7 @@
             <nav class="header__navbar">
                 <ul class="header__navbar-list">
                     <li class="header__navbar-list_item">
-                        <NuxtLink to="/">Услуги </NuxtLink>
+                        <NuxtLink class="header__navbar-list_item-link" to="/services">Услуги </NuxtLink>
                         <ul class="header__navbar-list_item-dropdown">
                             <li>
                                 <NuxtLink to="/">Технический заказчик </NuxtLink>
@@ -50,13 +50,13 @@
 
                     </li>
                     <li class="header__navbar-list_item">
-                        <NuxtLink to="/">Портфолио </NuxtLink>
+                        <NuxtLink class="header__navbar-list_item-link" to="/portfolio">Портфолио </NuxtLink>
                     </li>
                     <li class="header__navbar-list_item">
-                        <NuxtLink to="/">О компании </NuxtLink>
+                        <NuxtLink class="header__navbar-list_item-link" to="/about">О компании </NuxtLink>
                     </li>
                     <li class="header__navbar-list_item">
-                        <NuxtLink to="/">Контакты </NuxtLink>
+                        <NuxtLink class="header__navbar-list_item-link" to="/contacts">Контакты </NuxtLink>
                     </li>
                 </ul>
             </nav>
@@ -104,6 +104,18 @@
 
             height: 40px;
 
+            &-link {
+                &.router-link-active {
+                    color: var(--yellow);
+
+                    &::before {
+                        content: '•';
+                        color: var(--yellow);
+                        padding-right: 10px;
+                    }
+                }
+            }
+
             &:hover {
                 .header__navbar-list_item-dropdown {
                     display: flex;
@@ -134,9 +146,7 @@
                     padding-top: 5px;
                     padding-bottom: 5px;
 
-
-
-                    :hover {
+                    &:hover {
                         color: var(--yellow);
 
                         &::before {

@@ -2,16 +2,16 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <router-link :to="'/'">Главная</router-link>
+        <NuxtLink :to="'/'">Главная</NuxtLink>
       </li>
       <li v-for="(crumb, index) in breadcrumbs" :key="index + 1" class="breadcrumb-item">
-        <router-link 
+        <NuxtLink 
           v-if="crumb.to && index !== breadcrumbs.length - 1" 
           :to="crumb.to" 
           v-bind:aria-current="(index === breadcrumbs.length - 1) ? 'page' : null"
         >
           {{ crumb.text }}
-        </router-link>
+        </NuxtLink>
         <span v-else class="current">{{ crumb.text }}</span>
       </li>
     </ol>
@@ -21,10 +21,6 @@
 
 
 <script setup>
-import { defineProps } from 'vue';
-import { RouterLink } from 'vue-router';
-
-
 const props = defineProps({
   breadcrumbs: {
     type: Array,
@@ -45,6 +41,9 @@ const props = defineProps({
 
 .breadcrumb-item {
   display: inline-block; 
+  font-family: 'Aeroport';
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .breadcrumb-item {

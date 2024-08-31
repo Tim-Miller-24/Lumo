@@ -8,3 +8,13 @@ interface IBannerItem {
     area: string | null,
     address: string | null,
 }
+
+interface IBreadCrumbItem {
+    text: string,
+    to: string,
+}
+
+interface IAsideMenuItem {
+    text: string,
+    link: string,
+}

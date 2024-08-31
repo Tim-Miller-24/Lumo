@@ -1,5 +1,5 @@
 <template>
-    <div class="item">
+    <div class="item" :style="`padding: ${props.isShowTextBlock ? '20px' : '0'};`">
         <div class="item__image-box" @click="navigateTo(props.item.link, { external: true })">
             <img :data-src="props.item.image" :key="props.item.id" v-lazy-load alt="" class="item__image">
 
@@ -26,13 +26,13 @@
             </div>
         </div>
 
-        <!-- <div class="item__text-block">
+        <div class="item__text-block" v-if="isShowTextBlock">
             <h3 class="item__title"> {{ props.item.title }} </h3>
 
             <p class="item__description"> {{ props.item.description }} </p>
 
             <NuxtLink :to="props.item.link" class="item__link"> Подробнее <UIIcon name="arrow-diagonal" /> </NuxtLink>
-        </div> -->
+        </div>
     </div>
 </template>
 
@@ -40,7 +40,11 @@
 const props = defineProps({
     item: {
         type: Object,
-        default: {}
+        default: {} as () => IBannerItem,
+    },
+    isShowTextBlock: {
+        type: Boolean,
+        default: false,
     }
 })
 
@@ -112,10 +116,10 @@ const isShowOverlay = ref<boolean>(false);
         font-size: 16px;
         font-weight: 400;
         text-align: left;
-        color: var(--yellow);
+        color: var(--black);
 
         :deep(span svg path) {
-            fill: var(--yellow)
+            fill: var(--black)
         }
     }
 }
