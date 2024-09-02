@@ -1,8 +1,7 @@
 <template>
     <div class="consult">
         <div class="container consult__content">
-            <h4 class="consult__title">закажите бесплатную
-                <span>консультацию</span>
+            <h4 class="consult__title">Обратная связь
             </h4>
 
             <form class="consult__form">

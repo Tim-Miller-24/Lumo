@@ -77,7 +77,7 @@
                 <SwiperSlide class="index-menu__slide">
                     <div class="services__item">
                         <p class="services__count">05</p>
-                        <h3 class="services__name">Земляные работы / работы нулевого цикла</h3>
+                        <h3 class="services__name">Работы нулевого цикла</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur </p>
                         <UIButton color="black"class="services__button">Подробнее
@@ -90,7 +90,7 @@
                 <SwiperSlide class="index-menu__slide">
                     <div class="services__item">
                         <p class="services__count">06</p>
-                        <h3 class="services__name">Монолитные работы,  Монтаж / сбор жби конструкций</h3>
+                        <h3 class="services__name">Монолитные работы,  Монтаж сборных жби конструкций</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее
@@ -168,7 +168,7 @@
                 <SwiperSlide class="index-menu__slide">
                     <div class="services__item">
                         <p class="services__count">12</p>
-                        <h3 class="services__name">Эксплуатация и последующее обслуживание</h3>
+                        <h3 class="services__name">Эксплуатация и постгарантийное обслуживане</h3>
                         <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod </p>
                         <UIButton color="black"class="services__button">Подробнее

@@ -26,17 +26,6 @@
                 <p class="choice__item-title">квалифицированный штат</p>
                 <p class="choice__item-description">высококвалифицированный штат инженерно-технических сотрудников  </p>
             </div>
-            <div class="choice__item">
-                <UIIcon name="referals" class="choice__item-icon" />
-                <p class="choice__item-title">большой опыт</p>
-                <p class="choice__item-description">большой опыт в реализации задач</p>
-            </div>
-            <div class="choice__item">
-                <UIIcon name="expand_content" class="choice__item-icon" />
-                <p class="choice__item-title">23 проекта</p>
-                <p class="choice__item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt </p>
-            </div>
         </div>
     </div>
 </template>

@@ -23,10 +23,10 @@
                                 <NuxtLink to="/">Изготовление металлоконструкций </NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/">Земляные работы / работы нулевого цикла </NuxtLink>
+                                <NuxtLink to="/">Работы нулевого цикла </NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/">Монолитные работы, Монтаж / сбор жби конструкций </NuxtLink>
+                                <NuxtLink to="/">Монолитные работы, Монтаж сборных жби конструкций </NuxtLink>
                             </li>
                             <li>
                                 <NuxtLink to="/">Монтаж металлоконструкций </NuxtLink>
@@ -35,7 +35,7 @@
                                 <NuxtLink to="/">Монтаж сэндвич панелей </NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/">Кровельные работы / Монтаж кровли </NuxtLink>
+                                <NuxtLink to="/">Монтаж плоских кровель </NuxtLink>
                             </li>
                             <li>
                                 <NuxtLink to="/">Промышленные полы, полимерные покрытия </NuxtLink>
@@ -44,13 +44,13 @@
                                 <NuxtLink to="/">Монтаж инженерных сетей </NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/">Эксплуатация и последующее обслуживание </NuxtLink>
+                                <NuxtLink to="/">Эксплуатация и постгарантийное обслуживане </NuxtLink>
                             </li>
                         </ul>
 
                     </li>
                     <li class="header__navbar-list_item">
-                        <NuxtLink class="header__navbar-list_item-link" to="/portfolio">Портфолио </NuxtLink>
+                        <NuxtLink class="header__navbar-list_item-link" to="/portfolio">Наши проекты </NuxtLink>
                     </li>
                     <li class="header__navbar-list_item">
                         <NuxtLink class="header__navbar-list_item-link" to="/about">О компании </NuxtLink>

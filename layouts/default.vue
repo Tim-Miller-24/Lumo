@@ -29,7 +29,7 @@ const bread = computed<IBreadCrumbItem[]>(() => {
     }
     if (route.name === 'portfolio') {
         crumbs.push({
-            text: 'Портфолио',
+            text: 'Наши проекты',
             to: route.name,
         })
     }

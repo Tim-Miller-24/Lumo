@@ -1,7 +1,7 @@
 <template>
     <div class="projects">
         <div class="projects__header container">
-            <h3 class="projects__title">[Перокты]</h3>
+            <h3 class="projects__title">[Наши проекты]</h3>
 
             <NuxtLink to="/" class="projects__link"> Все проекты
                 <UIIcon name="arrow-diagonal" />
